@@ -22,7 +22,7 @@ console.jsonl
 *.log
 
 # vendored Foundry dependency (install with forge install)
-lib/
+/lib/
 
 # sandbox agent files and deploy metadata
 .agents/
