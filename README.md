@@ -36,4 +36,4 @@ forge build
 
 ### Environment variables
 
-- `VITE_FEE_RECEIPT_REGISTRY`: address of the deployed FeeReceiptRegistry contract on Arc Testnet.
+- `VITE_FEE_RECEIPT_REGISTRY`: address of the deployed FeeReceiptRegistry contract on Arc Testnet (`0xc850c73a8200dbc48ccb178fedc51188cf17fa2c`). Production builds read it from `.env.production`; for local development, copy that line into `.env`.
