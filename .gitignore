@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+
+# secrets and local config
+.env
+.env.*
+!.env.example
+.circle/
+recovery_file*
+
+# build output
+dist/
+contracts/out/
+contracts/cache/
+
+# sandbox debug logs
+traces.jsonl
+console.jsonl
+
+# OS / editor
+.DS_Store
+*.log
+
+# vendored Foundry dependency (install with forge install)
+lib/
+
+# sandbox agent files and deploy metadata
+.agents/
+contracts/contract-metadata/*.json
